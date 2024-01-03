@@ -11,7 +11,8 @@ const readBooks = [
         sidetall: 320,
         rating: 4,
         format: "innbundet",
-        fullført: "januar"
+        fullført: "januar",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497518323l/35439116.jpg"
     }, 
     {
         id: 2,
@@ -21,11 +22,12 @@ const readBooks = [
         kjønn: "kvinne",
         år: 2021,
         sjanger: "roman",
-        forlag: "Kagge forlag",
+        forlag: "Kagge",
         sidetall: 334,
         rating: 3,
         format: "ebok",
-        fullført: "januar"
+        fullført: "januar",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613387887l/57074075.jpg"
     },
     {
         id: 3,
@@ -39,7 +41,8 @@ const readBooks = [
         sidetall: 199,
         rating: 5,
         format: "innbundet",
-        fullført: "januar"
+        fullført: "januar",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634882856l/59429456.jpg"
     },
     {
         id: 4,
@@ -49,11 +52,12 @@ const readBooks = [
         kjønn: "kvinne",
         år: 2016,
         sjanger: "noveller",
-        forlag: "Forlaget Oktober",
+        forlag: "Oktober",
         sidetall: 117,
         rating: 4,
         format: "ebok",
-        fullført: "januar"
+        fullført: "januar",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469909350l/31298435.jpg"
     },
     {
         id: 5,
@@ -67,7 +71,8 @@ const readBooks = [
         sidetall: 93,
         rating: 3,
         format: "ebok",
-        fullført: "januar"
+        fullført: "januar",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661459311l/62084200.jpg"
     },
     {
         id: 6,
@@ -81,7 +86,8 @@ const readBooks = [
         sidetall: 124,
         rating: 3,
         format: "pocket",
-        fullført: "februar"
+        fullført: "februar",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675633170l/55336764.jpg"
     },
     {
         id: 7,
@@ -95,7 +101,8 @@ const readBooks = [
         sidetall: 278,
         rating: 3,
         format: "ebok",
-        fullført: "februar"
+        fullført: "februar",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553112367l/44552680.jpg"
     },
     {
         id: 8,
@@ -109,7 +116,8 @@ const readBooks = [
         sidetall: 472,
         rating: 4,
         format: "innbundet",
-        fullført: "mars"
+        fullført: "mars",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575804006l/49126852.jpg"
     },
     {
         id: 9,
@@ -123,7 +131,8 @@ const readBooks = [
         sidetall: 100,
         rating: 4,
         format: "innbundet",
-        fullført: "mars"
+        fullført: "mars",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676890009l/122772663.jpg"
     },
     {
         id: 10,
@@ -137,7 +146,8 @@ const readBooks = [
         sidetall: 173,
         rating: 3,
         format: "ebok",
-        fullført: "april"
+        fullført: "april",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612111802l/56899510.jpg"
     },
     {
         id: 11,
@@ -151,7 +161,8 @@ const readBooks = [
         sidetall: 54,
         rating: 3,
         format: "innbundet",
-        fullført: "april"
+        fullført: "april",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606229574l/56031415.jpg"
     },
     {
         id: 12,
@@ -161,11 +172,12 @@ const readBooks = [
         kjønn: "mann",
         år: 2022,
         sjanger: "roman",
-        forlag: "Kolon forlag",
+        forlag: "Kolon",
         sidetall: 138,
         rating: 2,
         format: "ebok",
-        fullført: "april"
+        fullført: "april",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668995852l/63366722.jpg"
     },
     {
         id: 13,
@@ -179,7 +191,8 @@ const readBooks = [
         sidetall: 160,
         rating: 3,
         format: "innbundet",
-        fullført: "april"
+        fullført: "april",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1380180748l/18587159.jpg"
     },
     {
         id: 14,
@@ -193,7 +206,8 @@ const readBooks = [
         sidetall: 93,
         rating: 2,
         format: "innbundet",
-        fullført: "mai"
+        fullført: "mai",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577406140l/15841336.jpg"
     },
     {
         id: 15,
@@ -207,7 +221,8 @@ const readBooks = [
         sidetall: 167,
         rating: 4,
         format: "innbundet",
-        fullført: "mai"
+        fullført: "mai",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593292501l/54184416.jpg"
     },
     {
         id: 16,
@@ -221,7 +236,8 @@ const readBooks = [
         sidetall: 212,
         rating: 4,
         format: "innbundet",
-        fullført: "mai"
+        fullført: "mai",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1253126229l/6868198.jpg"
     },
     {
         id: 17,
@@ -235,7 +251,8 @@ const readBooks = [
         sidetall: 496,
         rating: 3,
         format: "pocket",
-        fullført: "juni"
+        fullført: "juni",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397661207l/21525272.jpg"
     },
     {
         id: 18,
@@ -249,7 +266,8 @@ const readBooks = [
         sidetall: 77,
         rating: 4,
         format: "ebok",
-        fullført: "juli"
+        fullført: "juli",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559628316l/46142698.jpg"
     },
     {
         id: 19,
@@ -259,11 +277,12 @@ const readBooks = [
         kjønn: "kvinne",
         år: 2019,
         sjanger: "roman",
-        forlag: "Forlaget Oktober",
+        forlag: "Oktober",
         sidetall: 140,
         rating: 3,
         format: "ebok",
-        fullført: "juli"
+        fullført: "juli",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560706117l/52765414.jpg"
     },
     {
         id: 20,
@@ -273,11 +292,12 @@ const readBooks = [
         kjønn: "mann",
         år: 2007,
         sjanger: "roman",
-        forlag: "Cappelen",
+        forlag: "Cappelen Damm",
         sidetall: 206,
         rating: 4,
         format: "innbundet",
-        fullført: "juli"
+        fullført: "juli",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1223986709l/3869157.jpg"
     }, 
     {
         id: 21,
@@ -291,7 +311,8 @@ const readBooks = [
         sidetall: 101,
         rating: 2,
         format: "ebok",
-        fullført: "juli"
+        fullført: "juli",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598021470l/55052559.jpg"
     },
     {
         id: 22,
@@ -305,7 +326,8 @@ const readBooks = [
         sidetall: 416,
         rating: 3,
         format: "innbundet",
-        fullført: "august"
+        fullført: "august",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1301484589l/10920638.jpg"
     },
     {
         id: 23,
@@ -319,7 +341,8 @@ const readBooks = [
         sidetall: 254,
         rating: 5,
         format: "pocket",
-        fullført: "august"
+        fullført: "august",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339772051l/15706829.jpg"
     },
     {
         id: 24,
@@ -333,7 +356,8 @@ const readBooks = [
         sidetall: 302,
         rating: 4,
         format: "ebok",
-        fullført: "august"
+        fullført: "august",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549433350l/40672036.jpg"
     },
     {
         id: 25,
@@ -347,7 +371,8 @@ const readBooks = [
         sidetall: 508,
         rating: 2,
         format: "ebok",
-        fullført: "august"
+        fullført: "august",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682578660l/142416504.jpg"
     },
     {
         id: 26,
@@ -361,7 +386,8 @@ const readBooks = [
         sidetall: 253,
         rating: 3,
         format: "innbundet",
-        fullført: "august"
+        fullført: "august",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655583843l/61313915.jpg"
     },
     {
         id: 27,
@@ -375,7 +401,8 @@ const readBooks = [
         sidetall: 212,
         rating: 3,
         format: "ebok",
-        fullført: "september"
+        fullført: "september",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655979075l/61340947.jpg"
     },
     {
         id: 28,
@@ -389,7 +416,8 @@ const readBooks = [
         sidetall: 150,
         rating: 5,
         format: "innbundet",
-        fullført: "september"
+        fullført: "september",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667057506l/63126127.jpg"
     },
     {
         id: 29,
@@ -403,7 +431,8 @@ const readBooks = [
         sidetall: 184,
         rating: 4,
         format: "ebok",
-        fullført: "september"
+        fullført: "september",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663841515l/62686803.jpg"
     },
     {
         id: 30,
@@ -417,7 +446,8 @@ const readBooks = [
         sidetall: 284,
         rating: 4,
         format: "pocket",
-        fullført: "september"
+        fullført: "september",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544840384l/3109327.jpg"
     },
     {
         id: 31,
@@ -431,7 +461,8 @@ const readBooks = [
         sidetall: 144,
         rating: 2,
         format: "ebok",
-        fullført: "september"
+        fullført: "september",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1694367201l/198905277.jpg"
     },
     {
         id: 32,
@@ -445,7 +476,8 @@ const readBooks = [
         sidetall: 216,
         rating: 5,
         format: "innbundet",
-        fullført: "oktober"
+        fullført: "oktober",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1306854627l/11504713.jpg"
     },
     {
         id: 33,
@@ -455,11 +487,12 @@ const readBooks = [
         kjønn: "kvinne",
         år: 2022,
         sjanger: "roman",
-        forlag: "Forlaget Oktober",
+        forlag: "Oktober",
         sidetall: 213,
         rating: 4,
         format: "ebok",
-        fullført: "oktober"
+        fullført: "oktober",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665551954l/62973652.jpg"
     },
     {
         id: 34,
@@ -473,7 +506,8 @@ const readBooks = [
         sidetall: 172,
         rating: 4,
         format: "ebok",
-        fullført: "oktober"
+        fullført: "oktober",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571869363l/48563562.jpg"
     },
     {
         id: 35,
@@ -487,7 +521,8 @@ const readBooks = [
         sidetall: 242,
         rating: 3,
         format: "ebok",
-        fullført: "oktober"
+        fullført: "oktober",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1695315016l/199066185.jpg"
     },
     {
         id: 36,
@@ -501,7 +536,8 @@ const readBooks = [
         sidetall: 409,
         rating: 4,
         format: "lydbok",
-        fullført: "november"
+        fullført: "november",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339932400l/15709503.jpg"
     },
     {
         id: 37,
@@ -515,7 +551,8 @@ const readBooks = [
         sidetall: 609,
         rating: 4,
         format: "lydbok",
-        fullført: "november"
+        fullført: "november", 
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317212259l/12743090.jpg"
     },
     {
         id: 38,
@@ -529,7 +566,8 @@ const readBooks = [
         sidetall: 683,
         rating: 4,
         format: "lydbok",
-        fullført: "desember"
+        fullført: "desember",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353172508l/16154720.jpg"
     },
     {
         id: 39,
@@ -543,7 +581,8 @@ const readBooks = [
         sidetall: 320,
         rating: 2,
         format: "pocket",
-        fullført: "desember"
+        fullført: "desember",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664248880l/60543010.jpg"
     },
     {
         id: 40,
@@ -557,7 +596,8 @@ const readBooks = [
         sidetall: 627,
         rating: 4,
         format: "lydbok",
-        fullført: "desember"
+        fullført: "desember",
+        cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356972798l/17193256.jpg"
     }
 ]
 
@@ -666,6 +706,189 @@ function getNumberOfBooksPerLanguage() {
     return data
 }
 
+function getBooksReadPerMonth() {
+    const data = {
+        labels: ["Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August","September", "Oktober", "November", "Desember"],
+        datasets: [
+            {
+                label: "Antall bøker lest",
+                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+                borderColor: ["rgba(255, 99, 132, 1)"],
+                borderWidth: 1
+            
+            }
+        ]
+    }
+
+    for (let book of readBooks) {
+        const month = book.fullført.charAt(0).toUpperCase() + book.fullført.slice(1);
+        const index = data.labels.indexOf(month);  
+        
+        data.datasets[0].data[index] += 1
+    }
+
+    return data
+
+}
+
+function getPagesReadPerMonth() {
+    const data = {
+        labels: ["Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August","September", "Oktober", "November", "Desember"],
+        datasets: [
+            {
+                label: "Antall sider lese",
+                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+                borderColor: ["rgba(255, 99, 132, 1)"],
+                borderWidth: 1
+            
+            }
+        ]
+    }
+
+    for (let book of readBooks) {
+        const month = book.fullført.charAt(0).toUpperCase() + book.fullført.slice(1);
+        const index = data.labels.indexOf(month);  
+        
+        data.datasets[0].data[index] += book.sidetall
+    }
+
+    return data
+}
+
+function getTotalPagesRead() {
+    let pages = 0
+
+    for (let book of readBooks) {
+        pages += book.sidetall
+    }
+
+    return pages
+}
+
+function getTotalBooksRead() {
+    return readBooks.length
+}
+
+function getFormatsRead() {
+    const data = {
+        labels: [],
+        datasets: [
+            {
+                label: "Antall bøker lest",
+                data: [],
+                backgroundColor: [],
+                borderColor: [],
+                borderWidth: 1
+            
+            }
+        ]
+    }
+
+    for (let book of readBooks) {
+        const format = book.format
+        const index = data.labels.indexOf(format)     
+
+        if (index === -1) {
+            data.labels.push(format)
+            
+            data.datasets[0].data.push(0)
+            data.datasets[0].backgroundColor.push(randomColor())
+            data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
+        } else {
+            data.datasets[0].data[index] += 1
+        }
+    }
+
+    return data
+
+}
+
+function getPublisherCount() {
+    const data = {}
+
+    for (let book of readBooks) {
+        const publisher = book.forlag
+        if (!data[publisher]) {
+            data[publisher] = {
+                text: publisher,
+                value: 500
+            }
+        } else {
+            data[publisher].value += 1000
+        }
+    }
+
+    return Object.values(data);
+}
+
+function getAuthorCount() {
+    const data = {}
+
+    for (let book of readBooks) {
+        const author = book.forfatter
+        if (!data[author]) {
+            data[author] = {
+                text: author,
+                value: 500
+            }
+        } else {
+            data[author].value += 1000
+        }
+    }
+
+    return Object.values(data);
+}
+
+function getCovers() {
+    let data = []
+    for (let book of readBooks) {
+        data.push(book.cover)
+    }
+
+    return data
+}
+
+// Fiks fargetema
+function getPhysicalOrDigital() {
+    const data = {
+        labels: ["Fysisk", "Digital"],
+        datasets: [
+            {
+                label: "Antall bøker lest",
+                data: [0, 0],
+                backgroundColor: [],
+                borderColor: [],
+                borderWidth: 1
+            
+            }
+        ]
+    }
+
+    for (let book of readBooks) {
+        const format = book.format
+
+        switch (format) {
+            case "innbundet":
+                data.datasets[0].data[0] += 1
+                break;
+            case "pocket":
+                data.datasets[0].data[0] += 1
+                break;
+            case "ebok":
+                data.datasets[0].data[1] += 1
+                break;
+            case "lydbok":
+                data.datasets[0].data[1] += 1
+                break;
+            default:
+                break;
+        }
+    }
+
+    return data
+}
 
 function randomColor() {
     return "rgba("+ Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ", 0.7)" 
@@ -675,5 +898,14 @@ function randomColor() {
 export const booksPerYear = getNumberOfBooksPerYear()
 export const booksPerGender = getNumberOfBooksPerGender()
 export const booksPerLanguage = getNumberOfBooksPerLanguage()
+export const booksPerMonth = getBooksReadPerMonth()
+export const pagesPerMonth = getPagesReadPerMonth()
+export const totalPages = getTotalPagesRead()
+export const totalBooks = getTotalBooksRead()
+export const booksPerFormat = getFormatsRead()
+export const physicalOrDigital = getPhysicalOrDigital()
+export const publishers = getPublisherCount()
+export const authors = getAuthorCount()
+
 
 // console.log(getNumberOfBooksPerGender())
