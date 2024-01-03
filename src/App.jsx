@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect }  from "react";
+import { Grid } from "react-visual-grid";
 import WordCloud from "react-d3-cloud";
 import 'chart.js/auto';
-import LocomotiveScroll from "locomotive-scroll";
 import { booksPerYear } from "./data";
 import { booksPerGender } from "./data";
 import { booksPerLanguage } from "./data";
@@ -13,29 +13,84 @@ import { booksPerFormat } from "./data";
 import { physicalOrDigital } from "./data";
 import { publishers } from "./data";
 import { authors } from "./data";
+import { covers } from "./data";
+import { genres } from "./data";
 import { Doughnut, Pie, Radar } from "react-chartjs-2";
 import "./styles.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-const scroll = new LocomotiveScroll();
+AOS.init();
 
 
-export default () => (
+
+const year = new Date().getFullYear() - 1;
+
+
+const App = () => {
+	
+return (
   <>
-    <h1>2023 i tal</h1>
-    <div data-scroll>
-		<WordCloud 
-			data={publishers}	
+
+	<CoverGrid />
+
+    <div className="overskrift">Bokåret {year}</div>
+
+	<div className="seksjon" >
+		<p data-aos="fade-up">Bokåret {year} har vore eit fint år!</p>
+	</div>
+
+	<div className="seksjon">
+		<p data-aos="fade-up">Dette året las eg <em>{totalBooks}</em> bøker... </p>
+	</div>
+
+	<div className="seksjon">
+		<p data-aos="fade-in">... som til saman utgjorde <em>{totalPages}</em> sider. </p>
+	</div>
+
+	<div className="seksjon">
+
+		<p data-aos="fade-up">Eg fekk lese ein rekke forfattarar kor <em>{authors.sort(function(a, b){return b.value - a.value})[0].text}</em> var den mest lesne</p>
+
+	</div>
+
+	<div className="cloudContainer">
+		<WordCloud		
+			className="wordCloud"	
+			data={authors}
+			font="monospace"						
 		/>
 	</div>
 
-	<div data-scroll>
-		<WordCloud 
-			data={authors}	
+	
+	<div className="seksjon">
+		<p data-aos="fade-in">Kjønnsfordelinga var så som så. Av <em>{totalBooks}</em> var <em>{booksPerGender.datasets[0].data[0]}</em> skrivne av <em>menn</em></p>
+	</div>	
+
+
+
+	<div className="seksjon">
+		<Pie		
+			data={booksPerGender}
+			options={{
+				title: {
+				display: true,
+				text: "Books per year",
+				fontSize: 20,
+				},
+				legend: {
+				display: true,
+				position: "right",
+				},
+				
+			}}
 		/>
 	</div>
+
+
 	
 
-    <div data-scroll>
+    <div>
 		<Doughnut
 		data={booksPerYear}
 		options={{
@@ -52,26 +107,12 @@ export default () => (
 		/>
     </div>
 
-	<div data-scroll className="flexContainer">
-		<div className="flexItem" data-scroll data-scroll-speed="1">
-			<Pie		
-			data={booksPerGender}
-			options={{
-				title: {
-				display: true,
-				text: "Books per year",
-				fontSize: 20,
-				},
-				legend: {
-				display: true,
-				position: "right",
-				},
-				
-			}}
-			/>
+	<div className="flexContainer">
+		<div className="flexItem">
+
 		</div>
 
-		<div className="flexItem" data-scroll data-scroll-speed="2">
+		<div className="flexItem" >
 			<Pie		
 			data={booksPerLanguage}
 			options={{
@@ -89,9 +130,9 @@ export default () => (
 			/>		
 		</div>
 
-	<div data-scroll-container>
-		<div data-scroll-section>
-			<div data-scroll>
+	<div>
+		<div>
+			<div>
 				<Radar
 				data={booksPerMonth}
 				options={{
@@ -108,7 +149,7 @@ export default () => (
 				/>
 			</div>
 
-			<div data-scroll>
+			<div>
 				<Radar
 				data={pagesPerMonth}
 				options={{
@@ -128,6 +169,11 @@ export default () => (
 		</div>
 	</div>
 
+	<div className="cloudContainer">
+		<WordCloud 
+			data={publishers}	
+		/>
+	</div>
 
 
 
@@ -139,4 +185,28 @@ export default () => (
     
 
   </>
-);
+  )
+};
+
+export default App;
+
+function CoverGrid() {
+	return (
+		<div className="coverGrid">
+			{covers.map((cover, index) => (
+				<div
+					key={index}
+					style={{
+						backgroundImage: `url(${cover})`
+					}}
+					className="coverItem"
+				/>
+			))}
+		</div>
+	)
+}
+
+
+
+
+

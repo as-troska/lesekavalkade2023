@@ -695,7 +695,7 @@ function getNumberOfBooksPerLanguage() {
         if (index === -1) {
             data.labels.push(language)
             
-            data.datasets[0].data.push(0)
+            data.datasets[0].data.push(1)
             data.datasets[0].backgroundColor.push(randomColor())
             data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
         } else {
@@ -793,7 +793,7 @@ function getFormatsRead() {
         if (index === -1) {
             data.labels.push(format)
             
-            data.datasets[0].data.push(0)
+            data.datasets[0].data.push(1)
             data.datasets[0].backgroundColor.push(randomColor())
             data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
         } else {
@@ -890,6 +890,40 @@ function getPhysicalOrDigital() {
     return data
 }
 
+function getGenres() {
+    const data = {
+        labels: [],
+        datasets: [
+            {
+                label: "Antall bøker lest",
+                data: [],
+                backgroundColor: [],
+                borderColor: [],
+                borderWidth: 1
+            
+            }
+        ]
+    }
+
+    for (let book of readBooks) {
+        const genre = book.sjanger
+        const index = data.labels.indexOf(genre)     
+
+        if (index === -1) {
+            data.labels.push(genre)
+            
+            data.datasets[0].data.push(1)
+            data.datasets[0].backgroundColor.push(randomColor())
+            data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
+        } else {
+            data.datasets[0].data[index] += 1
+        }
+    }
+
+    return data
+
+}
+
 function randomColor() {
     return "rgba("+ Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ", 0.7)" 
 
@@ -906,6 +940,9 @@ export const booksPerFormat = getFormatsRead()
 export const physicalOrDigital = getPhysicalOrDigital()
 export const publishers = getPublisherCount()
 export const authors = getAuthorCount()
+export const covers = getCovers()
+export const genres = getGenres()
+
 
 
 // console.log(getNumberOfBooksPerGender())
