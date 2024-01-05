@@ -81,7 +81,7 @@ const readBooks = [
         forfatter: "Sverre Bjørstad Graff",
         kjønn: "mann",
         år: 2017,
-        sjanger: "tegneserie",
+        sjanger: "teikneserie",
         forlag: "Kortdugnad AS",
         sidetall: 124,
         rating: 3,
@@ -381,7 +381,7 @@ const readBooks = [
         forfatter: "Jason",
         kjønn: "mann",
         år: 2022,
-        sjanger: "tegneserie",
+        sjanger: "teikneserie",
         forlag: "Magikon",
         sidetall: 253,
         rating: 3,
@@ -576,7 +576,7 @@ const readBooks = [
         forfatter: "Masaaki Nakayama",
         kjønn: "mann",
         år: 2022,
-        sjanger: "tegneserie",
+        sjanger: "teikneserie",
         forlag: "Kondansha Comics",
         sidetall: 320,
         rating: 2,
@@ -625,7 +625,7 @@ function getNumberOfBooksPerYear() {
             data.labels.sort()
             data.datasets[0].data.push(0)
             data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
+            data.datasets[0].borderColor.push("grey")            
         } 
     }
 
@@ -653,8 +653,8 @@ function getNumberOfBooksPerGender() {
                     "rgba(54, 162, 235, 0.2)"
                 ],
                 borderColor: [
-                    "rgba(255, 99, 132, 1)",
-                    "rgba(54, 162, 235, 1)"
+                    "grey",
+                    "grey"
                 ],
                 borderWidth: 1
             
@@ -681,7 +681,7 @@ function getNumberOfBooksPerLanguage() {
                 label: "Antall bøker lest",
                 data: [],
                 backgroundColor: [],
-                borderColor: [],
+                borderColor: ["grey"],
                 borderWidth: 1
             
             }
@@ -697,7 +697,7 @@ function getNumberOfBooksPerLanguage() {
             
             data.datasets[0].data.push(1)
             data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
+            data.datasets[0].borderColor.push("grey")            
         } else {
             data.datasets[0].data[index] += 1
         }
@@ -714,7 +714,7 @@ function getBooksReadPerMonth() {
                 label: "Antall bøker lest",
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                 backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-                borderColor: ["rgba(255, 99, 132, 1)"],
+                borderColor: ["grey"],
                 borderWidth: 1
             
             }
@@ -740,7 +740,7 @@ function getPagesReadPerMonth() {
                 label: "Antall sider lese",
                 data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                 backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-                borderColor: ["rgba(255, 99, 132, 1)"],
+                borderColor: ["grey"],
                 borderWidth: 1
             
             }
@@ -779,7 +779,7 @@ function getFormatsRead() {
                 label: "Antall bøker lest",
                 data: [],
                 backgroundColor: [],
-                borderColor: [],
+                borderColor: ["grey"],
                 borderWidth: 1
             
             }
@@ -850,6 +850,24 @@ function getCovers() {
     return data
 }
 
+function getBookInfoSortedByRating() {
+    let data = []
+    for (let book of readBooks) {
+        data.push({
+            title: book.tittel,
+            author: book.forfatter,
+            rating: book.rating,
+            cover: book.cover,
+            published: book.år,
+            publisher: book.forlag,
+            finished: book.fullført,
+            pages: book.sidetall
+        })
+    }
+    data.sort((a, b) => (a.rating > b.rating) ? -1 : 1)
+    return data
+}
+
 // Fiks fargetema
 function getPhysicalOrDigital() {
     const data = {
@@ -858,8 +876,8 @@ function getPhysicalOrDigital() {
             {
                 label: "Antall bøker lest",
                 data: [0, 0],
-                backgroundColor: [],
-                borderColor: [],
+                backgroundColor: [randomColor(), randomColor()],
+                borderColor: ["grey"],
                 borderWidth: 1
             
             }
@@ -924,6 +942,16 @@ function getGenres() {
 
 }
 
+function getAverageRating() {
+    let total = 0
+    for (let book of readBooks) {
+        total += book.rating
+    }
+
+    return (total / readBooks.length).toFixed(2)
+
+}
+
 function randomColor() {
     return "rgba("+ Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ", 0.7)" 
 
@@ -942,7 +970,8 @@ export const publishers = getPublisherCount()
 export const authors = getAuthorCount()
 export const covers = getCovers()
 export const genres = getGenres()
-
+export const booksSortedByRating = getBookInfoSortedByRating()
+export const averageRating = getAverageRating()
 
 
 // console.log(getNumberOfBooksPerGender())
