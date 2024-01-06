@@ -779,7 +779,7 @@ function getFormatsRead() {
                 label: "Antall bøker lest",
                 data: [],
                 backgroundColor: [],
-                borderColor: ["grey"],
+                borderColor: [],
                 borderWidth: 1
             
             }
@@ -795,7 +795,7 @@ function getFormatsRead() {
             
             data.datasets[0].data.push(1)
             data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
+            data.datasets[0].borderColor.push("grey")            
         } else {
             data.datasets[0].data[index] += 1
         }
@@ -932,7 +932,7 @@ function getGenres() {
             
             data.datasets[0].data.push(1)
             data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("rgba(255, 99, 132, 1)")            
+            data.datasets[0].borderColor.push("grey")            
         } else {
             data.datasets[0].data[index] += 1
         }

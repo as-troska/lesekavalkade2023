@@ -33,17 +33,6 @@ canvas {
     text-transform: uppercase;
 }
 
-.flexContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-}
-
-.flexItem {
-    width: 100%;
-
-}
-
 .coverGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -102,6 +91,8 @@ canvas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     width: 100%;
+    padding: 30px;
+    margin: 50px;
 }
 
 .bookCard {
@@ -109,6 +100,9 @@ canvas {
     height: 300px;
     font-size: 0.5vw;
     background-size: cover;
+    margin: 10px;
+    border-radius: 5px;
+    
 }
 
 a.visited {
