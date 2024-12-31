@@ -1,4 +1,4 @@
-# Bokåret 2023 - Årskavalkade for bøker
+# Bokåret 2024 - Årskavalkade for bøker
 
 Eg er glad i årskavalkadar, men har ikkje funne ein fin for bøker. I år bestemte eg meg dermed for å lage min eigen.
 
@@ -11,10 +11,14 @@ Diverre fekk eg ikkje tid til å finpusse alt, og det er ein del som gjenstår t
 - Ikkje-statiske datasett
 - osb...
 
+(Oppdatering i 2024: Alt dette gjenstår framleis.)
+
 
 ## Lag din eigen
 
 Vil du prøve deg på din eigen, treng du berre forke prosjektet og legge inn ditt eige datasett i data.js (det byrjer på line 1).
+
+Merk at nokre av pakkane ikkje lengre fungerer i nyaste versjon. Om du vil klone prosjektet, må du bruke npm ci for å installere pakkane i gamle versjonar.
 
 Bygg med `npm run build` og sleng filene frå `dist` opp på ein websørver.
 

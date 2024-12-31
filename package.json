@@ -15,7 +15,8 @@
     "react-chartjs-2": "^5.2.0",
     "react-d3-cloud": "^1.0.6",
     "react-dom": "^18.2.0",
-    "react-visual-grid": "^0.9.5"
+    "react-visual-grid": "^0.9.5",
+    "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "babel-preset-nano-react-app": "^0.1.0",

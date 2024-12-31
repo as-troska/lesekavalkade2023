@@ -1,4 +1,4 @@
-const readBooks = [
+[
     {
         "id": 1,
         "tittel": "tilintetgjøre",
@@ -10,7 +10,7 @@ const readBooks = [
         "forlag": "Cappelen Damm",
         "sidetall": 688,
         "rating": 5,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "januar",
         "land": "Frankrike",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646466240l/60552020.jpg"
@@ -25,7 +25,7 @@ const readBooks = [
         "forlag": "Pelikanen",
         "sidetall": 136,
         "rating": 2,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "januar",
         "land": "Noreg",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646219079l/60535532.jpg"
@@ -40,7 +40,7 @@ const readBooks = [
         "forlag": "Fantagraphics",
         "sidetall": 106,
         "rating": 5,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "januar",
         "land": "USA",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720017438l/123209437.jpg"
@@ -115,7 +115,7 @@ const readBooks = [
         "forlag": "SolumBokvennen",
         "sidetall": 320,
         "rating": 4,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "februar",
         "land": "Skottland",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680268783l/124929779.jpg"
@@ -130,7 +130,7 @@ const readBooks = [
         "forlag": "Skald",
         "sidetall": 134,
         "rating": 3,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "februar",
         "land": "Polen",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685610479l/169792928.jpg"
@@ -160,7 +160,7 @@ const readBooks = [
         "forlag": "Fria Ligan",
         "sidetall": 64,
         "rating": 4,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "mars",
         "land": "USA",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528120122l/40380768.jpg"
@@ -220,7 +220,7 @@ const readBooks = [
         "forlag": "Humanist",
         "sidetall": 242,
         "rating": 4,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "april",
         "land": "Noreg",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633466531l/59223370.jpg"
@@ -230,7 +230,7 @@ const readBooks = [
         "språk": "nynorsk",
         "forfatter": "Olaug Nilssen",
         "kjønn": "kvinne",
-        "år": 2023,
+        "år": "2023",
         "sjanger": "roman",
         "forlag": "Samlaget",
         "sidetall": 224,
@@ -250,7 +250,7 @@ const readBooks = [
         "forlag": "VIZ Media",
         "sidetall": 750,
         "rating": 3,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "april",
         "land": "Japan",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473607428l/29632242.jpg"
@@ -265,7 +265,7 @@ const readBooks = [
         "forlag": "Aschehoug",
         "sidetall": 68,
         "rating": 4,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "april",
         "land": "Noreg",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664562244l/62832200.jpg"
@@ -275,7 +275,7 @@ const readBooks = [
         "språk": "bokmål",
         "forfatter": "Hiromi Kawakami",
         "kjønn": "kvinne",
-        "år": 2001,
+        "år": "2001",
         "sjanger": "roman",
         "forlag": "Press",
         "sidetall": 195,
@@ -320,7 +320,7 @@ const readBooks = [
         "språk": "engelsk",
         "forfatter": "Rafał Kosik",
         "kjønn": "mann",
-        "år": 2023,
+        "år": "2023",
         "sjanger": "roman",
         "forlag": "Orbit",
         "sidetall": 416,
@@ -445,7 +445,7 @@ const readBooks = [
         "forlag": "Kagge",
         "sidetall": 206,
         "rating": 3,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "juli",
         "land": "Noreg",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489310243l/34524132.jpg"
@@ -460,7 +460,7 @@ const readBooks = [
         "forlag": "Vidarforlaget",
         "sidetall": 353,
         "rating": 3,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "august",
         "land": "Frankrike",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720373359l/216179715.jpg"
@@ -475,7 +475,7 @@ const readBooks = [
         "forlag": "Norsk bokreidningslag",
         "sidetall": 78,
         "rating": 4,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "august",
         "land": "Noreg",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416509885l/23593714.jpg"
@@ -710,12 +710,12 @@ const readBooks = [
         "språk": "nynorsk",
         "forfatter": "Roberto Arlt",
         "kjønn": "mann",
-        "år": 1929,
+        "år": "1929",
         "sjanger": "roman",
         "forlag": "Skald",
         "sidetall": 348,
         "rating": 3,
-        "format": "innbunden",
+        "format": "innbundet",
         "fullført": "desember",
         "land": "Argentina",
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715782717l/213451569.jpg"
@@ -780,379 +780,3 @@ const readBooks = [
         "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1640356327l/59922651.jpg"
     }
 ]
-
-function getNumberOfBooksPerYear() {
-    const data = {
-        labels: [],
-        datasets: [
-            {
-                label: "Antall bøker lest",
-                data: [],
-                backgroundColor: [],
-                borderColor: [],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let book of readBooks) {
-        const year = book.år
-        const index = data.labels.indexOf(year)     
-
-        if (index === -1) {
-            data.labels.push(year)
-            data.labels.sort()
-            data.datasets[0].data.push(0)
-            data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("grey")            
-        } 
-    }
-
-    for (let book of readBooks) {
-        const year = book.år
-        const index = data.labels.indexOf(year)
-
-        if (index !== -1) {
-            data.datasets[0].data[index] += 1
-        }
-    }    
-
-    return data
-}
-
-function getNumberOfBooksPerGender() {
-    const data = {
-        labels: ["Mann", "Kvinne"],
-        datasets: [
-            {
-                label: "Antall bøker lese per kjønn",
-                data: [0, 0],
-                backgroundColor: [
-                    "rgba(54, 162, 235, 0.2)",
-                    "rgba(255, 99, 132, 0.2)"
-                    
-                ],
-                borderColor: [
-                    "grey",
-                    "grey"
-                ],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let bok of readBooks) {
-        if (bok.kjønn === "mann") {
-            data.datasets[0].data[0] += 1
-        } else if (bok.kjønn === "kvinne") {
-            data.datasets[0].data[1] += 1
-        }
-    }
-
-    return data
-}
-
-function getNumberOfBooksPerLanguage() {
-    const data = {
-        labels: [],
-        datasets: [
-            {
-                label: "Antall bøker lest",
-                data: [],
-                backgroundColor: [],
-                borderColor: ["grey"],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let book of readBooks) {
-        const language = book.språk
-        const index = data.labels.indexOf(language)     
-
-        if (index === -1) {
-            data.labels.push(language)
-            
-            data.datasets[0].data.push(1)
-            data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("grey")            
-        } else {
-            data.datasets[0].data[index] += 1
-        }
-    }
-
-    return data
-}
-
-function getBooksReadPerMonth() {
-    const data = {
-        labels: ["Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August","September", "Oktober", "November", "Desember"],
-        datasets: [
-            {
-                label: "Antall bøker lest",
-                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-                borderColor: ["grey"],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let book of readBooks) {
-        const month = book.fullført.charAt(0).toUpperCase() + book.fullført.slice(1);
-        const index = data.labels.indexOf(month);  
-        
-        data.datasets[0].data[index] += 1
-    }
-
-    return data
-
-}
-
-function getPagesReadPerMonth() {
-    const data = {
-        labels: ["Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August","September", "Oktober", "November", "Desember"],
-        datasets: [
-            {
-                label: "Antall sider lese",
-                data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-                borderColor: ["grey"],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let book of readBooks) {
-        const month = book.fullført.charAt(0).toUpperCase() + book.fullført.slice(1);
-        const index = data.labels.indexOf(month);  
-        
-        data.datasets[0].data[index] += book.sidetall
-    }
-
-    return data
-}
-
-function getTotalPagesRead() {
-    let pages = 0
-
-    for (let book of readBooks) {
-        pages += book.sidetall
-    }
-
-    return pages
-}
-
-function getTotalBooksRead() {
-    return readBooks.length
-}
-
-function getFormatsRead() {
-    const data = {
-        labels: [],
-        datasets: [
-            {
-                label: "Antall bøker lest",
-                data: [],
-                backgroundColor: [],
-                borderColor: [],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let book of readBooks) {
-        const format = book.format
-        const index = data.labels.indexOf(format)     
-
-        if (index === -1) {
-            data.labels.push(format)
-            
-            data.datasets[0].data.push(1)
-            data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("grey")            
-        } else {
-            data.datasets[0].data[index] += 1
-        }
-    }
-
-    return data
-
-}
-
-function getPublisherCount() {
-    const data = {}
-
-    for (let book of readBooks) {
-        const publisher = book.forlag
-        if (!data[publisher]) {
-            data[publisher] = {
-                text: publisher,
-                value: 500
-            }
-        } else {
-            data[publisher].value += 1000
-        }
-    }
-
-    return Object.values(data);
-}
-
-function getAuthorCount() {
-    const data = {}
-
-    for (let book of readBooks) {
-        const author = book.forfatter
-        if (!data[author]) {
-            data[author] = {
-                text: author,
-                value: 500
-            }
-        } else {
-            data[author].value += 1000
-        }
-    }
-
-    return Object.values(data);
-}
-
-function getCovers() {
-    let data = []
-    for (let book of readBooks) {
-        data.push(book.cover)
-    }
-
-    return data
-}
-
-function getBookInfoSortedByRating() {
-    let data = []
-    for (let book of readBooks) {
-        data.push({
-            title: book.tittel,
-            author: book.forfatter,
-            rating: book.rating,
-            cover: book.cover,
-            published: book.år,
-            publisher: book.forlag,
-            finished: book.fullført,
-            pages: book.sidetall
-        })
-    }
-    data.sort((a, b) => (a.rating > b.rating) ? -1 : 1)
-    return data
-}
-
-// Fiks fargetema
-function getPhysicalOrDigital() {
-    const data = {
-        labels: ["Fysisk", "Digital"],
-        datasets: [
-            {
-                label: "Antall bøker lest",
-                data: [0, 0],
-                backgroundColor: [randomColor(), randomColor()],
-                borderColor: ["grey"],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let book of readBooks) {
-        const format = book.format
-
-        switch (format) {
-            case "innbunden":
-                data.datasets[0].data[0] += 1
-                break;
-            case "pocket":
-                data.datasets[0].data[0] += 1
-                break;
-            case "ebok":
-                data.datasets[0].data[1] += 1
-                break;
-            case "lydbok":
-                data.datasets[0].data[1] += 1
-                break;
-            default:
-                break;
-        }
-    }
-
-    return data
-}
-
-function getGenres() {
-    const data = {
-        labels: [],
-        datasets: [
-            {
-                label: "Antall bøker lest",
-                data: [],
-                backgroundColor: [],
-                borderColor: [],
-                borderWidth: 1
-            
-            }
-        ]
-    }
-
-    for (let book of readBooks) {
-        const genre = book.sjanger
-        const index = data.labels.indexOf(genre)     
-
-        if (index === -1) {
-            data.labels.push(genre)
-            
-            data.datasets[0].data.push(1)
-            data.datasets[0].backgroundColor.push(randomColor())
-            data.datasets[0].borderColor.push("grey")            
-        } else {
-            data.datasets[0].data[index] += 1
-        }
-    }
-
-    return data
-
-}
-
-function getAverageRating() {
-    let total = 0
-    for (let book of readBooks) {
-        total += book.rating
-    }
-
-    return (total / readBooks.length).toFixed(2)
-
-}
-
-function randomColor() {
-    return "rgba("+ Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ", 0.7)" 
-
-}
-
-export const booksPerYear = getNumberOfBooksPerYear()
-export const booksPerGender = getNumberOfBooksPerGender()
-export const booksPerLanguage = getNumberOfBooksPerLanguage()
-export const booksPerMonth = getBooksReadPerMonth()
-export const pagesPerMonth = getPagesReadPerMonth()
-export const totalPages = getTotalPagesRead()
-export const totalBooks = getTotalBooksRead()
-export const booksPerFormat = getFormatsRead()
-export const physicalOrDigital = getPhysicalOrDigital()
-export const publishers = getPublisherCount()
-export const authors = getAuthorCount()
-export const covers = getCovers()
-export const genres = getGenres()
-export const booksSortedByRating = getBookInfoSortedByRating()
-export const averageRating = getAverageRating()
-
-
-// console.log(getNumberOfBooksPerGender())
