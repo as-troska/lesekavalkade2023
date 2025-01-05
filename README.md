@@ -6,8 +6,8 @@ Prosjektet har òg vore eit fint hobbyprosjekt kor eg kan teste ut nye teknologi
 
 Diverre fekk eg ikkje tid til å finpusse alt, og det er ein del som gjenstår til neste års lesekavalkade:
 
-- Fleire dynamiske tekstar
-- Scraping av bokinfo frå Goodreads
+- Dynamiske, AI-genrerete tekstar.
+- Scraping av bokinfo frå Goodreads (Dette ligg forsåvidt i imgScraper.js, men litt kronglete å bruke)
 - Ikkje-statiske datasett
 - osb...
 
@@ -18,7 +18,7 @@ Diverre fekk eg ikkje tid til å finpusse alt, og det er ein del som gjenstår t
 
 Vil du prøve deg på din eigen, treng du berre forke prosjektet og legge inn ditt eige datasett i data.js (det byrjer på line 1).
 
-Merk at nokre av pakkane ikkje lengre fungerer i nyaste versjon. Om du vil klone prosjektet, må du bruke npm ci for å installere pakkane i gamle versjonar.
+Merk at nokre av pakkane ikkje lengre fungerer i nyaste versjon. Om du vil klone prosjektet, må du bruke `npm ci` for å installere pakkane i gamle versjonar.
 
 Bygg med `npm run build` og sleng filene frå `dist` opp på ein websørver.
 
