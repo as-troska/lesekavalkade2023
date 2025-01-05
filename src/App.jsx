@@ -17,7 +17,8 @@ import { covers } from "./data";
 import { genres } from "./data";
 import { averageRating } from "./data";
 import { booksSortedByRating } from "./data";
-import { Doughnut, Pie, Radar } from "react-chartjs-2";
+import { booksPerCountry } from "./data";
+import { Doughnut, Pie, Radar, Bar } from "react-chartjs-2";
 import "./styles.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -140,6 +141,43 @@ return (
 				}}    
 				/>
     		</div>
+	</div>
+
+	<div className="seksjon-split" data-aos="fade-right" data-aos-duration="1000">
+		<div className="seksjon-left">
+			<p>Flest bøker kom, kan hende ikkje overraskande, frå Noreg, men {booksPerCountry.labels.length -1} andre land var òg representert.</p>
+		</div>
+		<div>
+			<Bar
+				data={booksPerCountry}
+				options={{
+					scales: {
+						x: {
+							grid: {
+								display: false
+							}
+						},
+						y: {
+							grid: {
+								display: false
+							}
+						}
+					},
+					plugins: {
+						legend: {
+							display: false
+						}
+					},
+					elements: {
+						bar: {
+							borderRadius: 2 
+						}
+					}
+				}}
+			/>
+
+		</div>
+				
 	</div>
 
 	<div className="seksjon" data-aos="zoom-in" data-aos-duration="1500">

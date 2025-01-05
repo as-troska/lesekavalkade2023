@@ -1138,6 +1138,39 @@ function randomColor() {
 
 }
 
+function getNumberOfBooksPerCountry() {
+    const data = {
+        labels: [],
+        datasets: [
+            {
+                label: "Antall bøker lese per land",
+                data: [],
+                backgroundColor: [],
+                borderColor: [],
+                borderWidth: 1
+            
+            }
+        ]
+    }
+
+    for (let book of readBooks) {
+        const country = book.land
+        const index = data.labels.indexOf(country)     
+
+        if (index === -1) {
+            data.labels.push(country)
+            
+            data.datasets[0].data.push(1)
+            data.datasets[0].backgroundColor.push(randomColor())
+            data.datasets[0].borderColor.push("grey")            
+        } else {
+            data.datasets[0].data[index] += 1
+        }
+    }
+
+    return data
+}
+
 export const booksPerYear = getNumberOfBooksPerYear()
 export const booksPerGender = getNumberOfBooksPerGender()
 export const booksPerLanguage = getNumberOfBooksPerLanguage()
@@ -1153,6 +1186,6 @@ export const covers = getCovers()
 export const genres = getGenres()
 export const booksSortedByRating = getBookInfoSortedByRating()
 export const averageRating = getAverageRating()
-
+export const booksPerCountry = getNumberOfBooksPerCountry();
 
 // console.log(getNumberOfBooksPerGender())

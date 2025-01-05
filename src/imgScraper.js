@@ -5,9 +5,10 @@ const parser = new Parser();
 const apiKey = "";
 
 async function goodreads() {
-    let feed = await parser.parseURL('https://www.goodreads.com/review/list_rss/10008902?key=' + apiKey + '&shelf=2024');
+    //let feed = await parser.parseURL('https://www.goodreads.com/review/list_rss/10008902?key=' + apiKey + '&shelf=2024');
 
-    let id = 52;
+    let feed = await parser.parseURL("https://www.goodreads.com/review/list_rss/66131803?shelf=read")
+    let id = 96;
 
     feed.items.forEach(item => {
         id--;
@@ -37,7 +38,7 @@ async function goodreads() {
             språk: "",
             forfatter: author,
             kjønn: "",
-            år: published,
+            år: parseInt(published),
             land: "",
             sjanger: "",
             forlag: "",
@@ -83,5 +84,5 @@ function fixId() {
 
 
 //goodreads()
-reverseJSON()
-//fixId()
+//reverseJSON()
+fixId()
